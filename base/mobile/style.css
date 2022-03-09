@@ -1,0 +1,108 @@
+#area{
+    min-width:90%;
+}
+
+.arealist-container{
+    margin:0.5em 1em;
+}
+.arealist-container .van-hairline--top-bottom::after{
+    /*移除arealist的hairline*/
+    border-top: none;
+}
+.copyright-group{
+    position: fixed;
+    bottom: 0;
+    text-align: center;
+    width: 100%;
+    font-size: 10px;
+    color: #7e7e7e;
+}
+
+.block-title{
+    margin: 0;
+    padding: 20px 16px 0px 16px;
+    color: rgba(69, 90, 100, 0.6);
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+}
+.block-container{
+    padding: 12px 0;
+}
+
+.btn-container{
+    padding-top: 0.2em;
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+}
+
+.btn-container :first-child{
+    padding-right: 0.3em;
+}
+
+.btn-container :last-child{
+    padding-left: 0.3em;
+}
+
+.btn-container :only-child{
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.x-title-tag{
+    margin: 0px 16px 0px 16px;
+}
+.van-tabs__wrap{
+    /* Tab 标签页 headline不显示 */
+    display: none;
+}
+.x-switch-row,.x-switch-row .van-switch{
+    font-size: 24px;
+}
+.x-switch-row .van-col{
+    display: flex;
+    justify-content: space-between;
+}
+
+.x-switch-row{
+    display: flex;
+    flex-direction: column;
+}
+.x-switch-row .x-raw{
+    display: flex;
+    width:100%;
+}
+
+.x-switch-row span{
+    font-size: 14px;
+}
+
+.x-switch-row::after{
+    display: flex;
+}
+.important-info{
+    padding: 0 1em;
+    text-indent:2em;
+}
+
+.van-cell--required::before {
+    left: 7px;
+}
+.block-title{
+    padding-top:6px;
+}
+.van-nav-bar{
+    margin-bottom: 6px;
+}
+.info-icon{
+    text-align: center;
+    font-size: 100px;
+    margin: 20px 0;
+    line-height: 0;
+}
+.important-info-title{
+    text-align: center;
+    font-size: 28px;
+    font-weight: 600;
+    margin: 0;
+}

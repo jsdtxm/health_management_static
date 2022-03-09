@@ -1,0 +1,84 @@
+.update-pro {
+	margin: 15px 25px;
+}
+
+.update-pro button {
+	padding: 13px 25px;
+	background: #4d7cfe;
+	color: #fff;
+	border-radius: 3px;
+	justify-content: center;
+	width: 100%;
+	border: 0;
+	cursor: pointer;
+}
+
+.update-pro button:hover {
+	background: #1D62F0 !important;
+}
+
+.update-pro:hover button:before {
+	display: none;
+}
+
+.update-pro button p,
+.update-pro button i {
+	color: #fff !important;
+	margin-bottom: 0px;
+}
+
+.update-pro button i {
+	margin-right: 5px !important;
+	font-size: 23px;
+	color: #C3C5CA;
+	margin-right: 15px;
+	width: 25px;
+	text-align: center;
+	vertical-align: middle;
+	float: left;
+}
+
+.student-id {
+	margin-top: 5px;
+	margin-bottom: 0 !important;
+}
+
+.sidebar .user .info a>span .user-level {
+	margin-top: 2px;
+}
+
+.btn-container button ,.btn-container a {
+	margin-bottom: 0.4em !important;
+}
+
+.modal-header,.modal-footer{
+	padding: 0.4rem 1rem;
+}
+
+.modal-body{
+	padding-top: 2em;
+}
+
+.card-sub-error {
+    border: 1px solid #ff646d;
+}
+.card-sub-success {
+    border: 1px solid #59d05d;
+}
+.card-sub-info {
+    border: 1px solid #23CCEF;
+}
+.card-sub .la{
+	font-size: 16px;
+}
+.bootstrap-table .loading-text{
+    font-size: 16px !important;
+}
+
+.bootstrap-table{
+    margin-bottom:1em;
+}
+
+.btn-container{
+	margin-bottom :0;
+}
